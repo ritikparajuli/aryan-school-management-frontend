@@ -1,4 +1,4 @@
-﻿# Aryan School Management System - Frontend
+# Aryan School Management System - Frontend
 
 ## College Management Platform
 
@@ -33,7 +33,7 @@ This is the frontend application for the Aryan School Management System built wi
 
 ### Setup
 
-```ash
+```bash
 # Clone the repository
 git clone https://github.com/ritikparajuli/aryan-school-management-frontend.git
 cd aryan-school-management-frontend
@@ -47,7 +47,7 @@ npm run dev
 
 ## Development
 
-```ash
+```bash
 # Start development server
 npm run dev
 
@@ -63,104 +63,116 @@ npm run type-check
 
 ### Project Structure
 
-`
-src/
-├── components/
-│   ├── ui/
-│   │   ├── accordion.tsx
-│   │   ├── alert-dialog.tsx
-│   │   ├── alert.tsx
-│   │   ├── aspect-ratio.tsx
-│   │   ├── avatar.tsx
-│   │   ├── badge.tsx
-│   │   ├── breadcrumb.tsx
-│   │   ├── button.tsx
-│   │   ├── calendar.tsx
-│   │   ├── card.tsx
-│   │   ├── carousel.tsx
-│   │   ├── chart.tsx
-│   │   ├── checkbox.tsx
-│   │   ├── collapsible.tsx
-│   │   ├── command.tsx
-│   │   ├── context-menu.tsx
-│   │   ├── dialog.tsx
-│   │   ├── drawer.tsx
-│   │   ├── dropdown-menu.tsx
-│   │   ├── form.tsx
-│   │   ├── hover-card.tsx
-│   │   ├── input-otp.tsx
-│   │   ├── input.tsx
-│   │   ├── label.tsx
-│   │   ├── menubar.tsx
-│   │   ├── navigation-menu.tsx
-│   │   ├── pagination.tsx
-│   │   ├── popover.tsx
-│   │   ├── progress.tsx
-│   │   ├── radio-group.tsx
-│   │   ├── resizable.tsx
-│   │   ├── scroll-area.tsx
-│   │   ├── select.tsx
-│   │   ├── separator.tsx
-│   │   ├── sheet.tsx
-│   │   ├── sidebar.tsx
-│   │   ├── skeleton.tsx
-│   │   ├── slider.tsx
-│   │   ├── sonner.tsx
-│   │   ├── switch.tsx
-│   │   ├── table.tsx
-│   │   ├── tabs.tsx
-│   │   ├── textarea.tsx
-│   │   ├── toggle-group.tsx
-│   │   ├── toggle.tsx
-│   │   └── tooltip.tsx
-│   ├── AppLayout.tsx
-│   ├── Footer.tsx
-│   ├── MessagePage.tsx
-│   └── PageHeader.tsx
-├── hooks/
-│   └── use-mobile.tsx
-├── lib/
-│   ├── error-capture.ts
-│   ├── error-page.ts
-│   ├── lovable-error-reporting.ts
-│   ├── mock-data.ts
-│   └── utils.ts
-├── routes/
-│   ├── admin/
-│   │   └── messages.tsx
-│   ├── student/
-│   │   └── messages.tsx
-│   ├── teacher/
-│   │   └── messages.tsx
-│   ├── __root.tsx
-│   ├── admin.tsx
-│   ├── index.tsx
-│   ├── login.tsx
-│   ├── README.md
-│   ├── student.attendance.tsx
-│   ├── student.calendar.tsx
-│   ├── student.index.tsx
-│   ├── student.materials.tsx
-│   ├── student.results.tsx
-│   ├── student.tsx
-│   ├── teacher.assignments.tsx
-│   ├── teacher.attendance.tsx
-│   ├── teacher.calendar.tsx
-│   ├── teacher.index.tsx
-│   ├── teacher.notes.tsx
-│   ├── teacher.results.tsx
-│   ├── teacher.students.tsx
-│   └── teacher.tsx
-├── router.tsx
-├── routeTree.gen.ts
-├── server.ts
-├── start.ts
-└── styles.css
-`
+```
+├── public/
+│   ├── aryan_college.jpg
+│   └── favicon.ico
+├── src/
+│   ├── components/
+│   │   ├── ui/
+│   │   │   ├── accordion.tsx
+│   │   │   ├── alert-dialog.tsx
+│   │   │   ├── alert.tsx
+│   │   │   ├── aspect-ratio.tsx
+│   │   │   ├── avatar.tsx
+│   │   │   ├── badge.tsx
+│   │   │   ├── breadcrumb.tsx
+│   │   │   ├── button.tsx
+│   │   │   ├── calendar.tsx
+│   │   │   ├── card.tsx
+│   │   │   ├── carousel.tsx
+│   │   │   ├── chart.tsx
+│   │   │   ├── checkbox.tsx
+│   │   │   ├── collapsible.tsx
+│   │   │   ├── command.tsx
+│   │   │   ├── context-menu.tsx
+│   │   │   ├── dialog.tsx
+│   │   │   ├── drawer.tsx
+│   │   │   ├── dropdown-menu.tsx
+│   │   │   ├── form.tsx
+│   │   │   ├── hover-card.tsx
+│   │   │   ├── input-otp.tsx
+│   │   │   ├── input.tsx
+│   │   │   ├── label.tsx
+│   │   │   ├── menubar.tsx
+│   │   │   ├── navigation-menu.tsx
+│   │   │   ├── pagination.tsx
+│   │   │   ├── popover.tsx
+│   │   │   ├── progress.tsx
+│   │   │   ├── radio-group.tsx
+│   │   │   ├── resizable.tsx
+│   │   │   ├── scroll-area.tsx
+│   │   │   ├── select.tsx
+│   │   │   ├── separator.tsx
+│   │   │   ├── sheet.tsx
+│   │   │   ├── sidebar.tsx
+│   │   │   ├── skeleton.tsx
+│   │   │   ├── slider.tsx
+│   │   │   ├── sonner.tsx
+│   │   │   ├── switch.tsx
+│   │   │   ├── table.tsx
+│   │   │   ├── tabs.tsx
+│   │   │   ├── textarea.tsx
+│   │   │   ├── toggle-group.tsx
+│   │   │   ├── toggle.tsx
+│   │   │   └── tooltip.tsx
+│   │   ├── AppLayout.tsx
+│   │   ├── Footer.tsx
+│   │   ├── MessagePage.tsx
+│   │   └── PageHeader.tsx
+│   ├── hooks/
+│   │   └── use-mobile.tsx
+│   ├── lib/
+│   │   ├── error-capture.ts
+│   │   ├── error-page.ts
+│   │   ├── lovable-error-reporting.ts
+│   │   ├── mock-data.ts
+│   │   └── utils.ts
+│   ├── routes/
+│   │   ├── admin/
+│   │   │   └── messages.tsx
+│   │   ├── student/
+│   │   │   └── messages.tsx
+│   │   ├── teacher/
+│   │   │   └── messages.tsx
+│   │   ├── __root.tsx
+│   │   ├── admin.tsx
+│   │   ├── index.tsx
+│   │   ├── login.tsx
+│   │   ├── README.md
+│   │   ├── student.attendance.tsx
+│   │   ├── student.calendar.tsx
+│   │   ├── student.index.tsx
+│   │   ├── student.materials.tsx
+│   │   ├── student.results.tsx
+│   │   ├── student.tsx
+│   │   ├── teacher.assignments.tsx
+│   │   ├── teacher.attendance.tsx
+│   │   ├── teacher.calendar.tsx
+│   │   ├── teacher.index.tsx
+│   │   ├── teacher.notes.tsx
+│   │   ├── teacher.results.tsx
+│   │   ├── teacher.students.tsx
+│   │   └── teacher.tsx
+│   ├── router.tsx
+│   ├── routeTree.gen.ts
+│   ├── server.ts
+│   ├── start.ts
+│   └── styles.css
+├── AGENTS.md
+├── bunfig.toml
+├── components.json
+├── eslint.config.js
+├── generate-readme.cjs
+├── package.json
+├── README.md
+├── tsconfig.json
+└── vite.config.ts
+```
 
 ### Environment Variables
 
-Create a .env file in the root directory:
+Create a `.env` file in the root directory:
 
 ```env
 VITE_API_URL=http://localhost:8000
@@ -170,21 +182,17 @@ VITE_API_URL=http://localhost:8000
 
 | Command | Description |
 |---------|-------------|
-| 
-pm run dev | Start development server |
-| 
-pm run build | Build for production |
-| 
-pm run preview | Preview production build |
-| 
-pm run type-check | Run TypeScript type checking |
+| `npm run dev` | Start development server |
+| `npm run build` | Build for production |
+| `npm run preview` | Preview production build |
+| `npm run type-check` | Run TypeScript type checking |
 
 ## Contributing
 
 1. Fork the repository
-2. Create your feature branch (git checkout -b feature/amazing-feature)
-3. Commit your changes (git commit -m 'Add some amazing feature')
-4. Push to the branch (git push origin feature/amazing-feature)
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
 ## License
@@ -204,5 +212,3 @@ MIT © Aryan College
 
 - Built with ❤️ for Aryan College
 - Special thanks to all contributors
-
-
