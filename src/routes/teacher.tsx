@@ -18,7 +18,7 @@ const items: NavItem[] = [
 
 export const Route = createFileRoute("/teacher")({
   component: () => (
-    <AppLayout items={items} role="Teacher" userName="Dr. Priya Menon">
+    <AppLayout items={items} role="Teacher" userName="Richa Ma'am">
       <Outlet />
     </AppLayout>
   ),

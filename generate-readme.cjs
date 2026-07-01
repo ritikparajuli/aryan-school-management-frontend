@@ -1,3 +1,4 @@
+// generate-readme.cjs of frontend
 const fs = require('fs');
 const path = require('path');
 

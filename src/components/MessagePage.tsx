@@ -68,9 +68,9 @@ const mockConversations: Record<string, Conversation[]> = {
       role: "student",
       messages: [
         { id: "1", sender: "Aarav Sharma", content: "Ma'am, I have a question about the assignment.", timestamp: "10:30 AM", isOwn: false, status: "read" },
-        { id: "2", sender: "Dr. Priya Menon", content: "Sure, what would you like to know?", timestamp: "10:32 AM", isOwn: true, status: "read" },
+        { id: "2", sender: "Richa Ma'am", content: "Sure, what would you like to know?", timestamp: "10:32 AM", isOwn: true, status: "read" },
         { id: "3", sender: "Aarav Sharma", content: "The deadline is next week, right?", timestamp: "10:33 AM", isOwn: false, status: "read" },
-        { id: "4", sender: "Dr. Priya Menon", content: "Yes, it's due next Friday.", timestamp: "10:35 AM", isOwn: true, status: "read" },
+        { id: "4", sender: "Richa Ma'am", content: "Yes, it's due next Friday.", timestamp: "10:35 AM", isOwn: true, status: "read" },
         { id: "5", sender: "Aarav Sharma", content: "Thank you for the feedback!", timestamp: "10:36 AM", isOwn: false, status: "read" },
       ]
     },
@@ -84,7 +84,7 @@ const mockConversations: Record<string, Conversation[]> = {
       role: "student",
       messages: [
         { id: "1", sender: "Neha Patel", content: "Ma'am, I've submitted my assignment.", timestamp: "1:00 PM", isOwn: false, status: "read" },
-        { id: "2", sender: "Dr. Priya Menon", content: "Great! I'll review it soon.", timestamp: "1:05 PM", isOwn: true, status: "read" },
+        { id: "2", sender: "Richa Ma'am", content: "Great! I'll review it soon.", timestamp: "1:05 PM", isOwn: true, status: "read" },
       ]
     },
     {
@@ -103,7 +103,7 @@ const mockConversations: Record<string, Conversation[]> = {
   Student: [
     {
       id: "1",
-      name: "Dr. Priya Menon",
+      name: "Richa Ma'am",
       lastMessage: "Yes, it's due next Friday.",
       timestamp: "10:35 AM",
       unread: 0,
@@ -111,9 +111,9 @@ const mockConversations: Record<string, Conversation[]> = {
       role: "teacher",
       messages: [
         { id: "1", sender: "Aarav Sharma", content: "Ma'am, I have a question about the assignment.", timestamp: "10:30 AM", isOwn: true, status: "read" },
-        { id: "2", sender: "Dr. Priya Menon", content: "Sure, what would you like to know?", timestamp: "10:32 AM", isOwn: false, status: "read" },
+        { id: "2", sender: "Richa Ma'am", content: "Sure, what would you like to know?", timestamp: "10:32 AM", isOwn: false, status: "read" },
         { id: "3", sender: "Aarav Sharma", content: "The deadline is next week, right?", timestamp: "10:33 AM", isOwn: true, status: "read" },
-        { id: "4", sender: "Dr. Priya Menon", content: "Yes, it's due next Friday.", timestamp: "10:35 AM", isOwn: false, status: "read" },
+        { id: "4", sender: "Richa Ma'am", content: "Yes, it's due next Friday.", timestamp: "10:35 AM", isOwn: false, status: "read" },
       ]
     },
     {
@@ -133,14 +133,14 @@ const mockConversations: Record<string, Conversation[]> = {
   Admin: [
     {
       id: "1",
-      name: "Dr. Priya Menon",
+      name: "Richa Ma'am",
       lastMessage: "New faculty orientation completed.",
       timestamp: "3 hours ago",
       unread: 1,
       online: false,
       role: "teacher",
       messages: [
-        { id: "1", sender: "Dr. Priya Menon", content: "New faculty orientation completed.", timestamp: "3:00 PM", isOwn: false, status: "delivered" },
+        { id: "1", sender: "Richa Ma'am", content: "New faculty orientation completed.", timestamp: "3:00 PM", isOwn: false, status: "delivered" },
       ]
     },
     {
